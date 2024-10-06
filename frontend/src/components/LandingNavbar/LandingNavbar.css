@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap');
+
+.navbar .text-1 {
+  font-size: 22px !important;
+  font-weight: lighter;
+}
+
+.navbar .text-2 {
+  font-size: 22px !important;
+  font-weight: lighter;
+}
+
+.navbar .text-3 {
+  font-size: 32px !important;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.navbar .text-1, .navbar .text-2, .navbar .text-3 {
+  color: black !important;  
+  font-family: 'Kaisei Tokumin', sans-serif;
+  /* -webkit-text-stroke: 0.5px black; */
+  /* opacity: 80%; */
+  border-radius: 50px;
+}
+
+.navbar {
+    height: 80px;
+    width: 1512px;
+    display: flex;              
+    align-items: center;
+    position: fixed;    
+    top: 0px; 
+    background-color: #F8C576;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    z-index: 1;
+    border-bottom: 2px solid #2f2626;
+  }
+  
+  .text-3 {
+    padding-left: 16px;
+  }
+  
+  .text-2 {
+    font-size: 36px;
+    line-height: auto;
+    padding-left: 1060px;
+  }
+
+  .text-1 {
+    font-size: 36px;
+    line-height: auto;
+    padding-left: 50px;
+  }
+  
+  .logo {
+    height: 35px;
+    width: 40px;
+    padding-left: 60px;
+    /* opacity: 85%; */
+  }
+  

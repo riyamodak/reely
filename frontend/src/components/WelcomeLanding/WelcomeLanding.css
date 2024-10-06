@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+
+
+.welcome {
+    position: relative;  /* Makes .welcome the reference for absolute positioning */
+    height: 100vh;       /* Full viewport height */
+    width: 100vw;        /* Full viewport width */
+    overflow: hidden;
+}
+
+.welcome .text-6, .welcome .text-7 {
+    color: white !important;  
+    font-family: 'Fraunces', sans-serif;
+  }
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensure the video covers the full screen */
+    z-index: -1;        /* Video stays in the background */
+}
+
+.text-6 {
+    position: absolute;
+    top: 80px;         
+    left: 230px;         
+    font-size: 130px;
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    font-weight: 300;
+    color: white;
+}
+
+.text-7 {
+    position: absolute;
+    top: 200px;         
+    left: 780px;        
+    font-size: 130px;
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    color: white;
+}
+
+.learn-more {
+    position: absolute;
+    top: 585px;
+    left: 650px;
+    background-color: white;
+    opacity: 90%;
+    height: 55px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: white;
+    border: 1px solid #f6c67e;
+    opacity: 90%;
+}
+
+.text-8 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 16px;
+}
